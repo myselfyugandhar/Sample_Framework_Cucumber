@@ -25,9 +25,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Factory;
 import org.testng.annotations.Parameters;
 
-import com.pages.LoginPage;
-import com.qa.factory.DriverFactory;
-
 
 import Test.GoogleSearch;
 import Test.GoogleSearch2;
@@ -60,7 +57,6 @@ public class StepDefinition {
 	public String outputDocName="dummy";
 	public String TestResultsDocPath,ReportPath,TestResultsScreenshotsPath;
 	public FileInputStream inputStream;
-	private LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
 public XSSFSheet SearchYugandharRoyal,SearchCheGuevara,ListOfInstances;
 
 	

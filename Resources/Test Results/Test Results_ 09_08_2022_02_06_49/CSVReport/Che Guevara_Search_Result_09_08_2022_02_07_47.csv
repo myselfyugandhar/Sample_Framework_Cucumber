@@ -1,0 +1,4 @@
+Release Month,Application Version,Region,Environment,Application Name,URL,Type Of Testing,Step No,Test Script,TestStep Description,Test Step,Expected Result,Actual Result,Execution Time,Status
+null,NA,NA,QA,NA,https://www.google.co.in/,Regression,1,Search for Che Guevara,Searching for Che Guevara,Searching for Che Guevara,Results should found for Che Guevara,Results found for Che Guevara,09-08-2022 at 02:07:46 IST,Pass
+null,NA,NA,QA,NA,https://www.google.co.in/,Regression,2,Time taken to Run the Test,Time taken to Run the Test,Time taken to Run the Test,Time taken to Run the Test is :,~Minutes,09-08-2022 at 02:07:46 IST,Pass
+null,NA,NA,QA,NA,https://www.google.co.in/,Regression,3,Quit Browser,Validate Quit Browser,Exit browser,Chrome browser should quit,Chrome browser has quit,09-08-2022 at 02:07:47 IST,Pass

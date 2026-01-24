@@ -4,9 +4,9 @@
 <suite name="Type of Testings">
 <test name="Test"  >
 		<parameter name="Browser" value="Chrome" />
-		<classes>
-			<class name="Runner.Runner" />
-		
+		//<classes>
+		//	<class name="Runner.Runner" />
+		<method name ="asdas"/>
 		</classes>
 
 	</test> <!-- Test -->
